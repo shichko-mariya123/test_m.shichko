@@ -1,0 +1,33 @@
+{
+  "circle": {
+    "params": {
+      "x": 0,
+      "y": 0,
+      "radius": 10
+    },
+    "color": "red",
+    "expected_message": "Drawing Circle: center=(0, 0), radius=10, color=red"
+  },
+  "rectangle": {
+    "params": {
+      "x": 0,
+      "y": 0,
+      "width": 20,
+      "height": 10
+    },
+    "color": "yellow",
+    "expected_message": "Drawing Rectangle: top-left=(0, 0), width=20, height=10, color=yellow"
+  },
+  "triangle": {
+    "params": {
+      "x1": 0,
+      "y1": 0,
+      "x2": 10,
+      "y2": 10,
+      "x3": 5,
+      "y3": 15
+    },
+    "color": "blue",
+    "expected_message": "Drawing Triangle: vertices=((0, 0), (10, 10), (5, 15)), color=blue"
+  }
+}
